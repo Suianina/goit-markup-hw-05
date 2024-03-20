@@ -546,4 +546,139 @@ margin-right: 120px;
     background-color: #31d0aa;
 }
 
+.backdrop {
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0;
+background-color: rgb(30, 24, 35, 0.6);
+
+}
+
+.modal {
+    width: 408px;
+    min-height: 584px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fcfcfc;
+    border: 1px solid #000;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 24px;
+}
+
+.modal-close {
+    position: absolute;
+    border-radius: 4px;
+    width: 24px;
+    right: 24px;
+    top: 24px;
+    margin-bottom: 24px;
+}
+
+.modal-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    max-width: 360px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.modal-field {
+    margin-bottom: 4px;
+}
+
+.modal-label {
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.modal-label span {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.modal-input-wrap {}
+
+
+.modal-input {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    background-color: transparent;
+    background: #d9d9d9;
+    margin-bottom: 8px;
+}
+
+.modal-input:focus {
+    border-color: 1px solid #4d5ae5;
+}
+
+.modal-icon {
+    position: absolute;
+    fill: #2e2f42;
+    left: 16px;
+    top: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.modal-input::placeholder {
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    
+}
+
+.modal-input-wrap {
+    position: relative;
+
+}
+/*
+
+{
+border: 1px solid #000;
+border-radius: 4px;
+width: 360px;
+background: #fcfcfc;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+    line-height: inherit;
+}
+
+.modal-form {
+    border: 1px solid #000;
+    border-radius: 4px;
+    width: 360px;
+    background: #fcfcfc;
+   
+   
+   
+   
+   
+   
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px;
+    border: 1px solid #212121;
+    max-width: 300px;
+}*/
+
 /** =================================== */
