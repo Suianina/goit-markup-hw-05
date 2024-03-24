@@ -546,7 +546,7 @@ margin-right: 120px;
 }
 
 .footer-text-mail {
-font-weight: 500px;
+font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
@@ -562,7 +562,9 @@ margin-left: 80px;
     margin-left: 80px;
 }
 
-.footer-form-user {}
+.footer-form-user {
+    gap: 24px;
+}
 
 .footer-email-Subscribe {}
 
@@ -585,9 +587,16 @@ height: 40px;
 margin-bottom: 132px;
 padding: 8px 212px 8px 16px;
 background-color: transparent;
+
+font-size: 12px;
+line-height: 2; 
+letter-spacing: 0.04em; 
+color: #ffffff;
 }
 
-
+placeholder {
+    color: #ffffff; 
+}
 
 .footer-btn-subscribe {
 font-weight: 500;
@@ -607,8 +616,9 @@ text-align: center;
 border: none;
 margin-left: 24px;
 margin-bottom: 132px;
-width: 165px;
 height: 40px;
+min-width: 165px;
+justify-content: center; 
 
 }
 
