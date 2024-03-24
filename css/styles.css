@@ -638,7 +638,7 @@ visibility: hidden;
 pointer-events: none;
 background-color: rgba(46, 47, 66, 0.4);
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+padding: 72px 24px 24px 24px; 
 }
 
 .is-open {
@@ -647,7 +647,6 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     pointer-events: auto;
 }
 .modal {
-    padding: 72px 24px 24px 24px; 
     width: 408px;
     min-height: 584px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
@@ -692,6 +691,11 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
+.buton-icon-vector:hover,
+.buton-icon-vector:focus {
+    fill: #ffffff;
+}
+
 .modal-close:hover,
 .modal-close:focus {
     background-color: #404bbf; 
@@ -707,6 +711,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     height: 24px;
     transform: translateY(-50%); 
 }
+
 
 .modal-title {
     font-weight: 500;
@@ -756,7 +761,6 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 input {
     padding-left: 38px; 
     outline: transparent; 
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-input {
@@ -767,7 +771,8 @@ input {
     background-color: transparent;
     margin-bottom: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+   
 }
 
 
@@ -780,6 +785,8 @@ input {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     right: 4px;
+    height: 24px;
+    
 }
 
 
@@ -792,7 +799,7 @@ input {
     height: 0px;
     transform: rotate(-90deg);
     border-color: #4D5AE5; 
-    fill: #4D5AE5; 
+    fill: #ffffff;
 }
 
 .modal-input-wrap-comment:placeholder {
