@@ -673,7 +673,8 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     background-color: #e7e9fc; 
     border: 1px solid rgba(0, 0, 0, 0.1); 
     padding: 0; 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    top: 24px; 
 }
 
 .buton-icon-vector {
@@ -681,6 +682,8 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     stroke:black;
     stroke-opacity: 0.1px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    height: 24px;
+    transform: translateY(-50%); 
 }
 
 .modal-close:hover,
@@ -694,10 +697,6 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     fill: #ffffff
 }
 
-.buton-icon-vector {
-    height: 24px;
-    transform: translateY(-50%); 
-}
 
 .buton-icon-vector:hover,
 .buton-icon-vector:focus {
@@ -777,7 +776,7 @@ input {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     right: 4px;
-    height: 24px;
+    height: 24;
     
 }
 
@@ -825,6 +824,12 @@ input {
     font-size: 12px;
     line-height: 117%;
     letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4); 
+    outline: transparent; 
+}
+
+.modal-text:focus {
+    border-color: #4D5AE5;
 }
 
 
@@ -863,6 +868,10 @@ input {
     justify-content: center;
     fill: transparent;
     position: relative;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex; 
 }
 
 .check-link {
@@ -889,6 +898,14 @@ input {
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background: #4d5ae5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin-top: 24px; 
+    padding-bottom: 24px;
+    margin-left: 119px;
 }
 
 input,
